@@ -1,6 +1,6 @@
 # iboisweb
 
-> ibois.win website
+nuxt website with strapi backend.
 
 ## Build Setup
 
