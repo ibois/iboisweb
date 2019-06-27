@@ -87,8 +87,3 @@ sw.*
 # Mac OSX
 .DS_Store
 
-
-# Strapi
-exports
-.cache
-build
