@@ -1,12 +1,18 @@
 <template>
-  <div class="container">
-    <div>
-      <h1>
+  <div class="block md:flex md:flex-grow">
+    <div class="bg-dark rounded m-5 p-4">
+      <h1 class="font-semibold text-2xl">
         iboisweb
       </h1>
-      <h2>
+      <p>
         ibois.win website
-      </h2>
+      </p>
     </div>
   </div>
 </template>
+
+<style>
+body {
+  background-image: url('/img/bg/eevent12.png');
+}
+</style>
