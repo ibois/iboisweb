@@ -34,7 +34,7 @@ module.exports = {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/auth', 
+    '@nuxtjs/auth',
     '@nuxtjs/pwa',
     '@nuxtjs/eslint-module'
   ],
@@ -42,7 +42,9 @@ module.exports = {
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
-  axios: {},
+  axios: {
+    baseURL: process.env.API_URL || 'http://localhost:1337'
+  },
   /*
    ** Auth module configuration
    ** See https://auth.nuxtjs.org/
