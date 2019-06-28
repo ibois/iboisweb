@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-top bg-local bg-no-repeat bg-auto bg-bg text-gray-100 font-body;
+  @apply bg-top bg-local bg-no-repeat bg-auto bg-bg text-gray-100 font-body min-h-screen;
 }
 @screen md {
   body {

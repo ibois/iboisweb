@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center m-6">
-    <router-link to="/">
+    <nuxt-link to="/">
       <img src="/img/logo.png" alt="ibois" />
-    </router-link>
+    </nuxt-link>
   </div>
 </template>
