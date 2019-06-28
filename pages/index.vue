@@ -26,7 +26,7 @@
       <iframe
         src="https://discordapp.com/widget?id=274249720736514048&theme=dark"
         width="100%"
-        height="100%"
+        height="300"
         allowtransparency="true"
         frameborder="0"
       >

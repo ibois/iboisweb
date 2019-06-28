@@ -1,6 +1,6 @@
 # iboisweb
 
-nuxt website with strapi backend.
+nuxt website for ibois isports professional verein™
 
 ## Build Setup
 
@@ -20,3 +20,9 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+## Environment vars for prod
+
+```
+API_URL = strapi url
+```
