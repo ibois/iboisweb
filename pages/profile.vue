@@ -1,5 +1,8 @@
 <template>
-  <div>{{ loggedInUser.username }}</div>
+  <div>
+    <p>Logged in: {{ loggedInUser.username }}</p>
+    <a @click="logout">Logout</a>
+  </div>
 </template>
 
 <script>
@@ -8,6 +11,11 @@ export default {
   middleware: 'auth',
   computed: {
     ...mapGetters(['loggedInUser'])
+  },
+  methods: {
+    async logout() {
+      await this.$auth.logout()
+    }
   }
 }
 </script>

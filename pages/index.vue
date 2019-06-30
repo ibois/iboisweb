@@ -1,27 +1,30 @@
 <template>
   <div class="flex flex-col md:flex-row">
-    <div class="bg-dark rounded m-5 p-4">
-      <h1 class="font-semibold text-2xl">About us</h1>
-      <p>
-        The ibois were founded in the "<strong>i</strong>" row at the "Lan2k18"
-        lanparty in 2018.
-        <br />
-        Since then they've stayed undefeated in multiple games maintaining their
-        100% winrate.*
-      </p>
+    <div class="md:flex-row">
+      <div class="bg-dark rounded m-5 p-5">
+        <h1 class="font-semibold text-2xl">About us</h1>
+        <p>
+          The ibois were founded in the "<strong>i</strong>" row at the
+          "Lan2k18" lanparty in 2018.
+          <br />
+          Since then they've stayed undefeated in multiple games maintaining
+          their 100% winrate.*
+        </p>
+      </div>
+
+      <div class="bg-dark rounded m-5 p-4">
+        <h1 class="font-semibold text-2xl">About us</h1>
+        <p>
+          The ibois were founded in the "<strong>i</strong>" row at the
+          "Lan2k18" lanparty in 2018.
+          <br />
+          Since then they've stayed undefeated in multiple games maintaining
+          their 100% winrate.*
+        </p>
+      </div>
     </div>
 
-    <div class="bg-dark rounded m-5 p-4">
-      <h1 class="font-semibold text-2xl">About us</h1>
-      <p>
-        The ibois were founded in the "<strong>i</strong>" row at the "Lan2k18"
-        lanparty in 2018.
-        <br />
-        Since then they've stayed undefeated in multiple games maintaining their
-        100% winrate.*
-      </p>
-    </div>
-
+    <!-- <div class="md:flex-row"> -->
     <div class="m-5">
       <iframe
         src="https://discordapp.com/widget?id=274249720736514048&theme=dark"
@@ -31,6 +34,7 @@
         frameborder="0"
       >
       </iframe>
+      <!-- </div> -->
     </div>
   </div>
 </template>

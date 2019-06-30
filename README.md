@@ -24,5 +24,5 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 ## Environment vars for prod
 
 ```
-API_URL = strapi url
+STRAPI_URL = strapi url
 ```

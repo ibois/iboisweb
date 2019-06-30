@@ -24,14 +24,14 @@
           </router-link>
         </div>
       </li>
-      <p v-if="!members.length">No results :(</p>
+      <p v-show="!members.length">No results :(</p>
     </ul>
   </div>
 </template>
 
 <script>
 import Strapi from 'strapi-sdk-javascript/build/main'
-const apiUrl = process.env.API_URL || 'http://localhost:1337'
+const apiUrl = process.env.STRAPI_URL || 'http://localhost:1337'
 const strapi = new Strapi(apiUrl)
 
 export default {
@@ -45,15 +45,14 @@ export default {
     const response = await strapi.request('post', '/graphql', {
       data: {
         query: `query {
-            users {
-                id,
-                username,
-                description,
-                image{
-                    url
-                }
-                
+          users {
+            id,
+            username,
+            description,
+            image{
+              url                
             }
+          }
         }
         `
       }

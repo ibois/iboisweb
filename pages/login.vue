@@ -4,7 +4,12 @@
       <div class="field">
         <label class="label">Username</label>
         <div class="control">
-          <input v-model="username" type="text" name="username" class="input" />
+          <input
+            v-model="username"
+            type="text"
+            name="username"
+            class="input text-black"
+          />
         </div>
       </div>
       <div class="field">
@@ -14,7 +19,7 @@
             v-model="password"
             type="password"
             name="password"
-            class="input"
+            class="input text-black"
           />
         </div>
       </div>
@@ -41,7 +46,7 @@ export default {
       try {
         await this.$auth.loginWith('local', {
           data: {
-            username: this.username,
+            identifier: this.username,
             password: this.password
           }
         })

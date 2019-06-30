@@ -43,13 +43,33 @@ module.exports = {
    ** See https://axios.nuxtjs.org/options
    */
   axios: {
-    baseURL: process.env.API_URL || 'http://localhost:1337'
+    baseURL: process.env.STRAPI_URL || 'http://localhost:1337'
   },
   /*
    ** Auth module configuration
    ** See https://auth.nuxtjs.org/
    */
-  auth: {},
+  auth: {
+    strategies: {
+      local: {
+        endpoints: {
+          login: {
+            url: '/auth/local',
+            method: 'post',
+            propertyName: 'jwt'
+          },
+          logout: false,
+          user: {
+            url: '/users/me',
+            method: 'get',
+            propertyName: ''
+          }
+        },
+        tokenRequired: true,
+        tokenType: 'bearer'
+      }
+    }
+  },
   /*
    ** Build configuration
    */
