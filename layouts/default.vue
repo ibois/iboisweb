@@ -1,9 +1,9 @@
 <template>
-  <div class="block">
+  <div class="flex flex-col justify-between min-h-screen">
     <Header />
-    <div class="mx-9">
+    <main class="mx-9">
       <nuxt />
-    </div>
+    </main>
     <Footer />
   </div>
 </template>
