@@ -8,6 +8,9 @@ module.exports = {
       },
       fontFamily: {
         body: ['Rubik', 'sans-serif']
+      },
+      boxShadow: {
+        outline: '0 0 0 3px rgba(254,178,178,0.5)'
       }
     }
   },

@@ -16,7 +16,7 @@
             {{ member.description || 'No description provided' }}.
           </p>
           <router-link
-            :to="{ name: 'members-name', params: { name: member.username } }"
+            :to="{ name: 'member-name', params: { name: member.username } }"
             tag="a"
             class=""
           >

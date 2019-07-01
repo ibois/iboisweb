@@ -1,34 +1,45 @@
 <template>
-  <div>
-    <form method="post" @submit.prevent="login">
-      <div class="field">
-        <label class="label">Username</label>
-        <div class="control">
+  <div class="flex justify-center">
+    <div class="w-full max-w-xs">
+      <form
+        method="post"
+        class="bg-dark rounded px-8 pt-6 pb-8 mb-4"
+        @submit.prevent="login"
+      >
+        <div class="mb-4">
+          <label class="block text-sm font-bold mb-2" for="username">
+            Username
+          </label>
           <input
+            id="username"
             v-model="username"
+            class="input py-2 px-3 focus:outline-none focus:shadow-outline"
             type="text"
-            name="username"
-            class="input text-black"
+            placeholder="Username"
           />
         </div>
-      </div>
-      <div class="field">
-        <label class="label">Password</label>
-        <div class="control">
+        <div class="mb-6">
+          <label class="block text-sm font-bold mb-2" for="password">
+            Password
+          </label>
           <input
+            id="password"
             v-model="password"
+            class="input py-2 px-3 focus:outline-none focus:shadow-outline"
             type="password"
-            name="password"
-            class="input text-black"
+            placeholder="********"
           />
         </div>
-      </div>
-      <div class="control">
-        <button type="submit" class="button is-dark is-fullwidth">
-          Log In
-        </button>
-      </div>
-    </form>
+        <div class="flex items-center justify-between">
+          <button
+            class="bg-red-300 hover:bg-red-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            type="submit"
+          >
+            Sign In
+          </button>
+        </div>
+      </form>
+    </div>
   </div>
 </template>
 
@@ -53,8 +64,7 @@ export default {
 
         this.$router.push('/profile')
       } catch (e) {
-        // eslint-disable-next-line no-console
-        console.log(e)
+        alert(e)
       }
     }
   }

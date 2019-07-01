@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col md:flex-row">
-    <div class="md:flex-row">
+    <div class="md:flex-row md:w-2/3">
       <div class="bg-dark rounded m-5 p-5">
         <h1 class="font-semibold text-2xl">About us</h1>
         <p>
@@ -25,7 +25,7 @@
     </div>
 
     <!-- <div class="md:flex-row"> -->
-    <div class="m-5">
+    <div class="m-5 md:w-1/3">
       <iframe
         src="https://discordapp.com/widget?id=274249720736514048&theme=dark"
         width="100%"

@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="block">
     <Header />
-    <div class="container mx-auto">
+    <div class="mx-9">
       <nuxt />
     </div>
     <Footer />
