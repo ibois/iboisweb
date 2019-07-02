@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col justify-between min-h-screen">
     <Header />
-    <main class="mx-9">
+    <main class="mx-10">
       <nuxt />
     </main>
     <Footer />

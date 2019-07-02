@@ -1,10 +1,10 @@
 <template>
   <div>
-    <ul class="">
+    <ul class="flex flex-col md:flex-row md:flex-wrap md:justify-center">
       <li
         v-for="member in members"
         :key="member.id"
-        class="bg-dark flex md:block rounded p-6 m-5"
+        class="bg-dark flex flex-row md:flex-col rounded p-6 mb-5 mt-5 md:m-5 md:w-56"
       >
         <img
           class="h-16 w-16 md:h-24 md:w-24 rounded-full mr-6 md:mx-auto md:mb-4"
