@@ -1,5 +1,6 @@
 <template>
   <div>
+    <img :src="$axios.defaults.baseURL + loggedInUser.image.url" />
     <p>Logged in: {{ loggedInUser.username }}</p>
     <a @click="logout">Logout</a>
   </div>
