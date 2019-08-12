@@ -24,7 +24,7 @@
           </router-link>
         </div>
       </li>
-      <p v-show="!members.length">No results :(</p>
+      <p v-show="!members.length">No members :(</p>
     </ul>
   </div>
 </template>
