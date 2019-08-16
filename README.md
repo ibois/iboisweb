@@ -1,5 +1,5 @@
 # iboisweb
-[![Netlify Status](https://api.netlify.com/api/v1/badges/68ad6f6f-3493-4042-994b-e96b13e105b7/deploy-status)](https://app.netlify.com/sites/ibois-beta/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/68ad6f6f-3493-4042-994b-e96b13e105b7/deploy-status)](https://app.netlify.com/sites/iboisweb-beta/deploys)
 
 nuxt website for ibois isports professional verein™
 
