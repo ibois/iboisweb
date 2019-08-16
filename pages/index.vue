@@ -19,8 +19,7 @@
             The ibois were founded in the "<strong>i</strong>" row at the
             "Lan2k18" lanparty in 2018.
             <br />
-            Since then they've stayed undefeated in multiple games maintaining
-            their 100% winrate.*
+            Since then tasdfasdfasdfasdfasdfte.*
           </p>
         </div>
       </div>
